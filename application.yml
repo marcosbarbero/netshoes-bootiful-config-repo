@@ -1,8 +1,8 @@
 #Remote token services
-spring:
-  oauth2.resource:
-    userInfoUri: http://security/user
-    loadBalanced: true
+security.oauth2.resource:
+  user-info-uri: http://security/user
+  load-balanced: true
+  preferTokenInfo: false
 
 logging.level:
   com.netflix.discovery: 'OFF'
