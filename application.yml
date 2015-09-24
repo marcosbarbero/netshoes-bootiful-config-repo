@@ -6,3 +6,6 @@ security.oauth2.resource:
 
 logging.level:
   com.netflix.discovery: 'OFF'
+  
+eureka.instance:
+  preferIpAddress: true  
