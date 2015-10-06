@@ -2,5 +2,5 @@ logging.level:
   ROOT: 'INFO'
   com.netflix.discovery: 'OFF'
 
-ribbon:
+gateway.ribbon:
   ServerListRefreshInterval: 1000
