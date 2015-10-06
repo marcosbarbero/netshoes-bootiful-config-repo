@@ -9,3 +9,6 @@ logging.level:
   
 eureka.instance:
   preferIpAddress: true  
+  
+ribbon:
+  ServerListRefreshInterval: 1000  
